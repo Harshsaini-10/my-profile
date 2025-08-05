@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(191, 203, 213);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#followbtn{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+#followbtn.following{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #939696;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+#likebtn{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color:#e74c3c;
+    color: white;
+    border: none;
+}
+
+#toggleDetailsBtn{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #777;
+    color: white;
+    border: none;
+}
+
+
+#theme{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+body.dark{
+    background-color: #121212;
+    color: white;
+}
+
+body.dark .card{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.dark #toggleDetailsBtn{
+    background-color: white;
+    color: black;
+}
